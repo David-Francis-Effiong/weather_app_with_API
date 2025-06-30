@@ -7,7 +7,7 @@ submitButton.addEventListener ('click', function(event) {
     event.preventDefault() // this cancels the default behaviour of refreshing the page as soon as any value is inserted
     //console.log(searchInput.value)
     var cityName = searchInput.value; 
-    var API_KEY = 'eb6a1e4abe0d6084d6a01ec0b329efaf'
+    var API_KEY = '..................' // API key will be inserted here. Not for public
 
     if (!cityName){
         alert ('Please enter your city name')
